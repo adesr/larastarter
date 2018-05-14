@@ -1,7 +1,6 @@
 <p align="center"><img src="https://laravel.com/assets/img/components/logo-laravel.svg"></p>
 
 ## About LaraStarter
----
 LaraStarter built to cut initial creation time of a laravel project. LaraStarter attempts to take the pain out of creating laravel project by adding a few of existing library, such as:
 
 - [AdminLTE](https://adminlte.io).
@@ -11,15 +10,14 @@ LaraStarter built to cut initial creation time of a laravel project. LaraStarter
 - [Codedge FPDF](https://github.com/codedge/laravel-fpdf).
 
 ## Setup
----
 Place this project to anywhere in your environment, and then do following steps inside your project directory:
 
-###### install dependencies
+install dependencies
 ```
 $ composer update
 ```
 
-###### update .env file
+update .env file
 ```
 APP_ENV=local
 APP_KEY=base64:GwSQO63EgfObeRF+Ma5Uq9pRkYcAoZILi0HXor2p3Rc=
@@ -35,22 +33,22 @@ DB_USERNAME=user
 DB_PASSWORD=pass
 ```
 
-###### generate laravel's app key
+generate laravel's app key
 ```
 php artisan key:generate
 ```
 
-###### execute laravel's migration
+execute laravel's migration
 ```
 php artisan migrate
 ```
 
-###### execute laravel's seed
+execute laravel's seed
 ```
 php artisan db:seed
 ```
 
-###### run laravel application
+run laravel application
 ```
 php artisan serve
 ```
